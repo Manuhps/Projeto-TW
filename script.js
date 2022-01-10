@@ -1,5 +1,6 @@
-function login (email,passw)
+function login()
 {
-    document.login.action="login.html";
-    alert(document.login.action)
+    let nome=document.getElementById("nome").value;
+    let texto="Logado como "+nome;
+    document.getElementById("teste").innerHTML=texto;
 }
