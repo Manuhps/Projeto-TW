@@ -17,3 +17,15 @@
 .link:visited{
     color: white;
 }
+
+.menu-navegacao ul {
+    display: flex;
+}
+
+.menu-navegacao ul li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+
+
