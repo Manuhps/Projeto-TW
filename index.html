@@ -8,26 +8,45 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div id="barraTopo">
-        <div id="logo">
-            <img src="Imagens\logo.png">
-        </div>
-        <div id="login">
-            <a href="login.html" class="link"><b>Login</b></a>
-            <a style="color: white;"><b> / </b></a>
-            <a href="registar.html" class="link"><b>Registar</b></a>
-        </div>
-        <div>
-            <nav class= "menu-navegacao">
-                <ul>
-                <li><a href="desporto.html">Desporto</a></li>
-                <li><a href="economia.html">Economia</a></li>
-                <li><a href="politica.html">Política</a></li>
-                <li><a href="mundo.html">Mundo</a></li>
-                </ul>
-                
-            </nav>
-        </div>
+  <div id="barraTopo">
+    <div id="logo">
+        <a href="index.html"><img src="Imagens\logo.png"></a>
     </div>
+    <div id="login">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="" alt="Avatar" class="avatar">
+              </div>
+              <div class="container">
+                <label for="uname"><b>Nome de utilizador</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button type="submit">Login</button>
+            
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              </div>
+            </form>
+        </div>
+        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Registar</button>
+</div>
+  <div">
+      <nav class= "menu-navegacao">
+      <ul>
+        <li><a href="desporto.html">Desporto</a></li>
+        <li><a href="economia.html">Economia</a></li>
+        <li><a href="politica.html">Política</a></li>
+        <li><a href="mundo.html">Mundo</a></li>
+      </ul>  
+      </nav>
+  </div>
 </body>
 </html>
