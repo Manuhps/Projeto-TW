@@ -12,7 +12,7 @@
 }
 
 #registar{
-  text-align: right;
+  text-align: center;
   position: absolute;
   right: 2%;
   top: 5%;
@@ -243,16 +243,12 @@ input[type=text], input[type=password] {
 }
 
 .footer {
+  display:flex;
+  align-content: flex-end;
   position: relative;
   padding: 60px 0 0 0;
-  margin-top: 15px;
+  margin-top: 5px;
   background: #353535;
-}
-
-@media (min-width: 992px) {
-  .footer .container-fluid {
-      max-width: 95%;
-  }
 }
 
 .footer .footer-widget {
@@ -318,23 +314,6 @@ input[type=text], input[type=password] {
   margin-right: 5px;
 }
 
-.footer .social {
-  position: relative;
-  width: 100%;
-}
-
-.footer .social a {
-  display: inline-block;
-  margin: 10px 5px 0 0;
-  width: 35px;
-  height: 35px;
-  padding: 2px 0;
-  text-align: center;
-  font-size: 18px;
-  background: #353535;
-  border: 1px solid #ffffff;
-}
-
 .footer .social a i {
   color: #ffffff;
 }
@@ -383,4 +362,10 @@ input[type=text], input[type=password] {
   box-shadow: none;
 }
 
-
+button.btn {
+  color: #353535;
+  background: #ffffff;
+  border: 1px solid #353535;
+  border-radius: 0;
+  right: 10%;
+}
