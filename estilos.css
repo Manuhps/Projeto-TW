@@ -1,7 +1,8 @@
 #barraTopo{
-    background-color: lightgrey;
+    background-color: #353535;
     height: 100px;
     width: 100%;
+    
 }
 
 #login{
@@ -154,4 +155,144 @@ input[type=text], input[type=password] {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+/* pagina principal noticias */
+main {
+  width: 60em;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#destaque {
+  background-color:  whitesmoke;
+  text-align: right;
+  text-align: justify;
+}
+
+#sec-noticia {
+  background-color: whitesmoke;
+}
+
+#categorias {
+  background-color: whitesmoke;
+}
+
+
+
+#blue {
+  background-color:   #bae1ff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "green green green"
+    "yellow orange orange"
+    "blue blue blue";
+}
+
+#destaque {
+  grid-area: green;
+}
+
+#categorias {
+  grid-area: yellow;
+}
+
+#sec-noticia {
+  grid-area: orange;
+}
+
+
+
+#blue {
+  grid-area: blue;
+}
+
+#h1{
+    font-family: 'Times New Roman', Times, serif;
+  
+    
+}
+
+#destaque img {
+  float: right;
+  margin-top: 19%;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  
+  
+}
+
+#destaque h1 {
+    font-size: 40px;
+    text-align: center;
+
+  
+
+text-decoration: none;
+}
+
+#destaque p{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  text-transform: lowercase;
+  
+}
+#destaque p::first-letter{
+  text-transform: uppercase;
+  font-size: 3em;
+  font-style: italic;
+  float: left;
+
+}
+#categorias button {
+  background-color: orange;
+  border: none;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+
+}
+#categorias a {
+  color: black;
+  text-decoration: none;
+}
+
+#categorias button:hover{
+  opacity: 0.8;
+}
+
+#sec-noticia h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#sec-noticia h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  
+  color: orange;
+  
+}
+
+#sec-noticia p{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
 }
