@@ -160,12 +160,13 @@ input[type=text], input[type=password] {
 main {
   width: 60em;
   margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 section {
   padding: 2em;
   margin: 1em;
+  margin-top: 5em;
 }
 
 #destaque {
