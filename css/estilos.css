@@ -305,3 +305,7 @@ text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
 }
+
+#sec-noticia a{
+  color: #f39200;
+}
