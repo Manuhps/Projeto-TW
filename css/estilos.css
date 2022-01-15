@@ -170,23 +170,27 @@ section {
 }
 
 #destaque {
-  background-color:  whitesmoke;
+  background-color:  white;
   text-align: right;
   text-align: justify;
 }
 
+#destaque a{
+  color:  black;
+}
+
 #sec-noticia {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 #categorias {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 
 
 #blue {
-  background-color:   #bae1ff;
+  background-color: blue;
 }
 
 main {
@@ -215,6 +219,8 @@ main {
 
 #blue {
   grid-area: blue;
+  padding-left: 0em;
+  padding-top: 0em;
 }
 
 #h1{
@@ -225,10 +231,10 @@ main {
 
 #destaque img {
   float: right;
-  margin-top: 19%;
-  height: 200px;
+  margin-top: 1em;
+  height: 300px;
   width: 400px;
-  padding: 20px;
+  padding: 1em;
   
   
 }
@@ -246,16 +252,12 @@ text-decoration: none;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
-  text-transform: lowercase;
+  
   
 }
-#destaque p::first-letter{
-  text-transform: uppercase;
-  font-size: 3em;
-  font-style: italic;
-  float: left;
 
-}
+
+
 #categorias button {
   background-color: orange;
   border: none;
@@ -277,6 +279,12 @@ text-decoration: none;
 
 #categorias button:hover{
   opacity: 0.8;
+}
+
+#categorias img{
+  width: 30px;
+  height: 30px;
+  float: right;
 }
 
 #sec-noticia h1{

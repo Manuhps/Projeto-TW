@@ -1,4 +1,3 @@
-
 #barraTopo{
     background-color: #353535;
     height: 100px;
@@ -158,6 +157,8 @@ input[type=text], input[type=password] {
     left: 0px;
 }
 
+
+
 main {
     width: 90em;
     margin: 0 auto;
@@ -170,169 +171,104 @@ main {
     margin: 1em;
   }
   
-  #primeira {
+  #noticia {
     background-color: white;
   }
   
-  #orange {
-    background-color: #ffdfba;
-  }
-  
-  #destaques {
+  #categorias {
     background-color: white;
   }
   
-  #terceira {
-    background-color:   white;
-  }
-  
-  #segunda {
-    background-color:   white;
-  }
-  
-  #destaques2{
+  #out-noticia {
     background-color: white;
+  }
+  
+  #orange{
+    background-color: orange;
   }
   
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-      "green green green blue"
-      "green green green red"
-      "yellow yellow yellow brown"
-      "pink pink pink brown"
+      "yellow green green red"
+      "yellow green green red"
       "orange orange orange orange";
-      border-top: 1px solid;
   }
   
-  #primeira {
+  
+  #noticia {
     grid-area: green;
-    border-right: 1px solid #bdbebd;
+    padding-top: 0em;
+   
   }
   
-  #destaques {
+  #categorias {
     grid-area: yellow;
-    border-bottom: 1px solid #bdbebd;
+    
+  }
+  
+  #out-noticia {
+    grid-area: red;
   }
   
   #orange {
     grid-area: orange;
+  }
+  
+  #noticia p{
+    font-size: 19px;
+    text-indent: 50px;
+    text-align: justify;
+  }
+  #noticia h1{
+    font-size: 40px;
+    text-align: center;
     
   }
   
-  #terceira {
-    grid-area: red;
-    padding-left: 0em;
-    padding-top: 0em;
-    border-bottom: 1px solid #bdbebd;
+  #noticia img{
+    width: 600px;
+    height: 494;
   }
   
-  
-  
-  #segunda {
-    grid-area: blue;
-    padding-left: 0em;
-    padding-top: 0em;
-    border-bottom: 1px solid #bdbebd;
-  }
-  
-  #destaques2{
-    grid-area: pink;
-    border-bottom: 1px solid #bdbebd;
-  }
-  
-  #titulo{
-  display: block;
-  padding-top: 0;
-  margin-top: 10px;
-  border-top: 1px solid #bdbebd;
-  border-bottom: 1px solid #bdbebd;
-  }
-  
-  #primeira img {
-    width: 900px;
-    height: 600px;
-  }
-  
-  #primeira h1{
+  #categorias button {
+    background-color: #f39200;
+    border: none;
+    padding: 20px 42px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
   }
   
-  #primeira p{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    font-weight: 500;
+  #categorias a {
+    color: black;
+    text-decoration: none;
   }
   
-  #segunda h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    text-decoration: underline;
+  #categorias button:hover{
+    opacity: 0.8;
   }
   
-  #segunda p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-  }
-  
-  #segunda img{
-    width: 120px;
-    height: 90px;
+  #categorias img{
+    width: 30px;
+    height: 30px;
     float: right;
-    padding-top: 1em;
   }
   
-  #terceira h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    text-decoration: underline;
-    
-  }
-  
-  #terceira p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-  }
-  
-  #terceira img{
-    width: 120px;
-    height: 90px;
-    float: right;
-    padding-top: 1em;
-  }
-  
-  #destaques img{
-    width: 210px;
-    height: 150px;
-    float: right;
-    margin-right: 2em;
-    margin-top: 0em;
-    padding: 1em;
-  }
-  
-  #destaques2 img{
-    width: 210px;
-    height: 150px;
-    float: right;
-    margin-right: 2em;
-    margin-top: 0em;
-    padding: 1em;
-  }
-  
-  #destaques h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+  #out-noticia h1{
+    font-size: 18px;
     text-align: center;
   }
   
-  #destaques p{
-    text-align: justify;
-  }
-  
-  #destaques2 p{
+  #out-noticia h2{
+    font-size: 15px;
+    color: #f39200;
     text-align: justify;
   }
