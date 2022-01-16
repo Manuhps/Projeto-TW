@@ -12,6 +12,8 @@
     top: 5%;
 }
 
+
+
 .link:link{
     color: white;
 }
@@ -19,13 +21,27 @@
     color: white;
 }
 
-.menu-navegacao ul {
+
+.menu-navegacao  {
     display: flex;
+    position: absolute;
+    top: 7%;
+    right: 30%;
+
+  
 }
 
-.menu-navegacao ul li{
-    list-style-type: none;
-    padding-right: 30px;
+.menu-navegacao button {
+  background-color: #f39200;
+  width: 12em;
+  height: 3em;
+  margin: 5px;
+
+}
+
+.menu-navegacao a{
+  color: white;
+  text-decoration: none;
 }
 
 input[type=text], input[type=password] {
@@ -39,7 +55,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: #f39200;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -157,10 +173,12 @@ input[type=text], input[type=password] {
     left: 0px;
 }
 /* pagina principal noticias */
+
 main {
   width: 60em;
   margin: 0 auto;
   background-color: white;
+  display: flex;
 }
 
 section {
@@ -188,11 +206,6 @@ section {
 }
 
 
-
-#blue {
-  background-color: blue;
-}
-
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
@@ -200,7 +213,6 @@ main {
   grid-template-areas: 
     "green green green"
     "yellow orange orange"
-    "blue blue blue";
 }
 
 #destaque {
@@ -215,18 +227,8 @@ main {
   grid-area: orange;
 }
 
-
-
-#blue {
-  grid-area: blue;
-  padding-left: 0em;
-  padding-top: 0em;
-}
-
 #h1{
     font-family: 'Times New Roman', Times, serif;
-  
-    
 }
 
 #destaque img {
@@ -242,8 +244,6 @@ main {
 #destaque h1 {
     font-size: 40px;
     text-align: center;
-
-  
 
 text-decoration: none;
 }
@@ -309,3 +309,19 @@ text-decoration: none;
 #sec-noticia a{
   color: #f39200;
 }
+
+
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+}
+
+input[type=submit] {
+  width: 109%;
+  padding: 12px;
+  color: white;
+  border: none;
+  background-color: #f39200;
+}
+
