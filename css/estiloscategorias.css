@@ -20,13 +20,23 @@
     color: white;
 }
 
-.menu-navegacao  {
+.titulo  {
   display: flex;
   position: absolute;
-  top: 7%;
-  right: 30%;
+  top: 0;
+  right: 45%;
+  color: #f39200;
+  font-family: 'Times New Roman', Times, serif;
 
+}
 
+.menu-navegacao  {
+    display: flex;
+    position: absolute;
+    top: 8%;
+    right: 30%;
+
+  
 }
 
 .menu-navegacao button {
