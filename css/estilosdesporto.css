@@ -20,13 +20,26 @@
     color: white;
 }
 
-.menu-navegacao ul {
-    display: flex;
+.menu-navegacao  {
+  display: flex;
+  position: absolute;
+  top: 7%;
+  right: 30%;
+
+
 }
 
-.menu-navegacao ul li{
-    list-style-type: none;
-    padding-right: 30px;
+.menu-navegacao button {
+background-color: #f39200;
+width: 12em;
+height: 3em;
+margin: 5px;
+
+}
+
+.menu-navegacao a{
+color: white;
+text-decoration: none;
 }
 
 input[type=text], input[type=password] {
@@ -40,7 +53,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: #f39200;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

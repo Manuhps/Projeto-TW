@@ -19,13 +19,22 @@
     color: white;
 }
 
-.menu-navegacao ul {
-    display: flex;
+.menu-navegacao  {
+  position: absolute;
+  top: 0;
+  right: 45%;
+  justify-content: center;
 }
 
-.menu-navegacao ul li{
-    list-style-type: none;
-    padding-right: 30px;
+.menu-navegacao{
+  font-family: 'Times New Roman', Times, serif;
+  color: #f39200;
+  font-size: 25px;
+}
+
+.menu-navegacao a{
+  text-decoration: none;
+  color: #f39200;
 }
 
 input[type=text], input[type=password] {
@@ -39,7 +48,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: #f39200;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
