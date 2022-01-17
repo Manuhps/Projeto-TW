@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - ESMAD NESWS</title>
+    <link rel="stylesheet" href="css\contactos.css" />
+</head>
+<body>
+    <div id="barraTopo">
+        <div id="logo">
+          <a href="index.html"
+            ><img src="Imagens\logo.png" width="100px" height="100px"
+          /></a>
+        </div>
+        <div id="login">
+          <button
+            onclick="document.getElementById('id01').style.display='block'"
+            style="width: auto"
+          >
+            Login
+          </button>
+          <div id="id01" class="modal">
+            <form class="modal-content animate">
+              <div class="imgcontainer">
+                <span
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="close"
+                  title="Close Modal"
+                  >&times;</span
+                >
+                <img src="" alt="Avatar" class="avatar" />
+              </div>
+              <div class="container">
+                <label for="uname"><b>Nome de utilizador: </b></label>
+                <input
+                  type="text"
+                  placeholder="Nome de utilizador: "
+                  name="uname"
+                  required
+                />
+  
+                <label for="psw"><b>Password: </b></label>
+                <input
+                  type="password"
+                  placeholder="Password: "
+                  name="psw"
+                  required
+                />
+  
+                <button type="submit">Login</button>
+              </div>
+              <div class="container" style="background-color: #f1f1f1">
+                <button
+                  type="button"
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="cancelbtn"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <div id="registar">
+        <button
+          onclick="document.getElementById('id02').style.display='block'"
+          style="width: auto"
+        >
+          Registar
+        </button>
+        <div id="id02" class="modal">
+          <form class="modal-content animate">
+            <div class="imgcontainer">
+              <span
+                onclick="document.getElementById('id02').style.display='none'"
+                class="close"
+                title="Close Modal"
+                >&times;</span
+              >
+              <img src="" alt="Avatar" class="avatar" />
+            </div>
+            <div class="container">
+              <label for="uname"><b>Nome de utilizador: </b></label>
+              <input
+                type="text"
+                placeholder="Nome de utilizador: "
+                name="uname"
+                required
+              />
+  
+              <label for="psw"><b>Password: </b></label>
+              <input
+                type="password"
+                placeholder="Password: "
+                name="psw1"
+                required
+              />
+  
+              <label for="psw"><b>Confirmaçao da Password: </b></label>
+              <input
+                type="password"
+                placeholder="Confirmaçao da Password: "
+                name="psw2"
+                required
+              />
+  
+              <label for="psw"><b>Email: </b></label>
+              <input
+                type="email"
+                placeholder="O seu e-mail: "
+                name="email"
+                required
+              />
+  
+              <button type="submit">Registar</button>
+            </div>
+            <div class="container" style="background-color: #f1f1f1">
+              <button
+                type="button"
+                onclick="document.getElementById('id02').style.display='none'"
+                class="cancelbtn"
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="titulo">
+        <h1>ESMAD NEWS</h1>
+      </div>
+      <div>
+        <nav class="menu-navegacao">
+          <a href="desporto.html"><button>Desporto</button></a>
+          <a href="economia.html"><button>Economia</button></a>
+          <a href="politica.html"><button>Politica</button></a>
+          <a href="mundo.html"><button>Mundo</button></a>
+        </nav>
+    </div>
+    <div id="titulo">
+        <h1>Contactos</h1>
+    </div>
+    <div class="contactos">
+        <form onsubmit="alert('A sua mensagem foi enviada com sucesso!')">
+            <input type="name" placeholder="Nome" id="name" required>
+            <input type="email" placeholder="Email" id="email" required>
+    </div>
+    <div>
+        <textarea name="mensagem" rows="10" cols="25" placeholder="Mensagem" required></textarea>
+      </div>
+    <div>
+        <input type="submit" value="Enviar">
+      </div>
+    <br>
+    <br>
+    <div class="informaçoes">
+        <h1>Outras informações</h1>
+        <h3>Email</h3>
+        <p>esmadnews@gmail.com</p>
+        <h3>Número</h3>
+        <p>+351 912 345 678</p>
+        <h3>Morada</h3>
+        <p>R. Dom Sancho I 1</p>
+    </div>
+    <div class="mapa">
+        <h1>A nossa localizção</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3472540845746!2d-8.741040349303244!3d41.36653960514903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24441837aa9c2d%3A0x39b9a396dac2269d!2sCampus%202%20-%20P.Porto%20%7C%20ESMAD!5e0!3m2!1spt-PT!2spt!4v1642454089397!5m2!1spt-PT!2spt" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+</body>
+</html>
