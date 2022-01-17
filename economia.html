@@ -38,8 +38,36 @@
         </div>
         <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Registar</button>
 </div>
+<div id="registar">
+    <div id="id02" class="modal">
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="" alt="Avatar" class="avatar">
+        </div>
+          <div class="container">
+            <label for="uname"><b>Nome de utilizador: </b></label>
+            <input type="text" placeholder="Nome de utilizador: " name="uname" required>
+            
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Password: " name="psw1" required>
+
+            <label for="psw"><b>Confirmaçao da Password: </b></label>
+            <input type="password" placeholder="Confirmaçao da Password: " name="psw2" required>
+
+            <label for="psw"><b>Email: </b></label>
+            <input type="email" placeholder="O seu e-mail: " name="email" required>
+                    
+            <button type="submit">Registar</button>
+          </div>
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+      </form>
+    </div>
+</div>
 <div class="titulo">
-  <h1>ESMAD NEWS</h1>
+  <a href="index.html" class="esmadnews"><h1>ESMAD NEWS</h1></a>
 </div>
 <div>
   <nav class= "menu-navegacao">
@@ -49,8 +77,8 @@
     <a href="mundo.html"><button>Mundo</button></a>
   </nav>
 </div>
-<div class="titulo">
-  <a href="index.html" class="esmadnews"><h1>ESMAD NEWS</h1></a>
+<div id="titulo">
+  <h1 align="center">Economia</h1></a>
 </div>
 <br>
 <main>

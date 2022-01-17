@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economia</title>
+    <title>Politica</title>
     <link rel="stylesheet" href="css\estiloscategorias.css">
 </head>
 <body>
@@ -38,6 +38,34 @@
         </div>
         <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Registar</button>
 </div>
+<div id="registar">
+    <div id="id02" class="modal">
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="" alt="Avatar" class="avatar">
+        </div>
+          <div class="container">
+            <label for="uname"><b>Nome de utilizador: </b></label>
+            <input type="text" placeholder="Nome de utilizador: " name="uname" required>
+            
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Password: " name="psw1" required>
+
+            <label for="psw"><b>Confirmaçao da Password: </b></label>
+            <input type="password" placeholder="Confirmaçao da Password: " name="psw2" required>
+
+            <label for="psw"><b>Email: </b></label>
+            <input type="email" placeholder="O seu e-mail: " name="email" required>
+                    
+            <button type="submit">Registar</button>
+          </div>
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+      </form>
+    </div>
+</div>
 <div class="titulo">
   <a href="index.html" class="esmadnews"><h1>ESMAD NEWS</h1></a>
 </div>
@@ -52,5 +80,59 @@
 <div id="titulo">
   <h1 align="center">Política</h1>
 </div>
+<br>
+<main>
+  <section id="primeira">
+    <img src="Imagens\18.jpg">
+    <footer><span class="author">John Doe</span> <span class="date">May 5</span></footer>
+    <h1>Rio acusa Costa de tentar "incutir medo" nos portugueses com "papão da direita"</h1>
+    <p>O líder social-democrata acusou Costa de "estar a tentar incutir medo aos portugueses a dizer que, se ganhar o PSD, vem aí o papão da direita", reiterando que o posicionamento do partido na sua liderança "é ao centro".
+      O líder social-democrata acusou hoje António Costa de "tentar incutir medo nos portugueses" com "o papão da direita" e apelou ao PS para que faça campanha "com base nas suas propostas, sem "deturpar as ideias do PSD".
+    </p>
+      
+  </section>
+  
+  <section id="segunda">
+    <img src="imagens\19.jpg">
+    <h1>CDS recusa acordos com o PAN e alerta PSD que "não vale tudo" para governar</h1>
+    <p>"Fiquei preocupado, confesso-vos, com as recentes notícias que dão nota que Rui Rio e João Cotrim de Figueiredo admitem entender-se com o PAN para a formação de Governo de Portugal", afirmou Francisco Rodrigues dos Santos, que discursava num almoço com apoiantes em Évora.</p>
+      <footer><span class="author">John Doe</span> <span class="date">May 5</span></footer>
+  </section>
+  <section id="terceira">
+    <img src="imagens\6.jpg">
+    <h1>Teixeira dos Santos: “Não podemos dar um passo em falso” na subida do salário mínimo</h1>
+    <p>O ex-governante dos executivos socialistas de António Guterres e José Sócrates não quis tomar partido no debate pré-eleições, que decorre entre os partidos de esquerda e de direita, sobre as promessas de subir o salário mínimo nacional, hoje em 705 euros mensais. 
+      Mas a argumentação de Teixeira dos Santos vai mais ao encontro do que defendem os sociais-democratas do que os socialistas.</p>
+      <footer><span class="author">John Doe</span> <span class="date">May 5</span></footer>
+  </section>
+  
+  <section id="destaques">
+    <hr>
+    <h1>Últimas da semana</h1>
+    <br>
+    <img src="imagens\21.jpg">
+    <h3>“A estrutura fiscal penaliza a classe média”, diz Teixeira dos Santos</h3>
+    <p>Num cenário em que o país consegue voltar a equilibrar as suas finanças públicas, e pagar o aumento expectável da despesa que advém das pressões demográficas, Teixeira dos Santos diz que será preferível começar por baixar o IRS. Para as empresas, importa dar estabilidade e simplificar procedimentos para reduzir custos de contexto.</p>
+    <br>
+    <br>
+    <br>
+    <footer><span class="author">John Doe</span> <span class="date">May 5</span></footer>
+  </section>
+  
+  <section id="destaques2">
+    <img src="imagens\20.jpg">
+    <h3>Todos querem descer o IRS, uns mais que outros</h3>
+    <p>Independentemente do partido vencedor das eleições de dia 30, uma coisa parece certa: o IRS deverá baixar para algumas famílias na próxima legislatura. Quais? Depende. Embora todos os partidos com assento parlamentar prometam um alívio, os moldes e ritmos propostos afastam-se com efeitos diferentes para as famílias.</p>
+    <br>
+    <br>
+    <br>
+    <footer><span class="author">John Doe</span> <span class="date">May 5</span></footer>
+  </section>
+  
+  <section id="orange">
+    <p>ORANGE</p>
+  </section>
+
+</main>
 </body>
 </html>
