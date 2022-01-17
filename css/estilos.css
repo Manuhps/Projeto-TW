@@ -1,52 +1,47 @@
-#barraTopo{
-    background-color: #353535;
-    height: 100px;
-    width: 100%;
-    
+#barraTopo {
+  background-color: #353535;
+  height: 100px;
+  width: 100%;
 }
 
-#login{
-    text-align: right;
-    position: absolute;
-    right: 8.3%;
-    top: 7%;
+#login {
+  text-align: right;
+  position: absolute;
+  right: 8.3%;
+  top: 7%;
 }
 
-#registar{
+#registar {
   text-align: right;
   position: absolute;
   right: 2%;
   top: 7%;
 }
 
-.link:link{
-    color: white;
+.link:link {
+  color: white;
 }
-.link:visited{
-    color: white;
+.link:visited {
+  color: white;
 }
-.link:active{
+.link:active {
   color: white;
 }
 
-
-.titulo  {
+.titulo {
   display: flex;
   position: absolute;
   top: 0;
   right: 45%;
   color: #f39200;
-  font-family: 'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
-.menu-navegacao  {
-    display: flex;
-    position: absolute;
-    top: 8%;
-    right: 30%;
-
-  
+.menu-navegacao {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  right: 30%;
 }
 
 .menu-navegacao button {
@@ -54,145 +49,153 @@
   width: 12em;
   height: 3em;
   margin: 5px;
-
 }
 
-.menu-navegacao a{
+.menu-navegacao a {
   color: white;
   text-decoration: none;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #f39200;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  button:hover {
-    opacity: 0.8;
-  }
-  
-  /* Extra styles for the cancel button */
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-    position: relative;
-    right: 90%;
-  }
-  
-  /* Center the image and position the close button */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-  }
-  
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-  
-  .container {
-    padding: 16px;
-  }
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
-  .container{
-    text-align: left;
+/* Set a style for all buttons */
+button {
+  background-color: #f39200;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  position: relative;
+  right: 90%;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.container {
+  text-align: left;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
   }
-  
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
   span.psw {
-    float: left;
-    padding-top: 16px;
+    display: block;
+    float: none;
   }
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button (x) */
-  .close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: red;
-    cursor: pointer;
-  }
-  
-  /* Add Zoom Animation */
-  .animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-  }
-  
-  @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-  }
-    
-  @keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-  }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  }
-
-  #iframe{
+  .cancelbtn {
     width: 100%;
-    height: auto;
-    border: 0px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+  }
+}
+
+#iframe {
+  width: 100%;
+  height: auto;
+  border: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 /* pagina principal noticias */
 
@@ -210,13 +213,13 @@ section {
 }
 
 #destaque {
-  background-color:  white;
+  background-color: white;
   text-align: right;
   text-align: justify;
 }
 
-#destaque a{
-  color:  black;
+#destaque a {
+  color: black;
 }
 
 #sec-noticia {
@@ -227,15 +230,14 @@ section {
   background-color: white;
 }
 
-
 main {
   display: grid;
-  grid-template-columns: 300px 200px 100px; 
+  grid-template-columns: 300px 200px 100px;
   grid-template-rows: 400px 300px;
   grid-gap: 200px;
-  grid-template-areas: 
+  grid-template-areas:
     "green green green"
-    "yellow orange orange"
+    "yellow orange orange";
 }
 
 #destaque {
@@ -250,8 +252,8 @@ main {
   grid-area: orange;
 }
 
-#h1{
-    font-family: 'Times New Roman', Times, serif;
+#h1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 #destaque img {
@@ -260,26 +262,20 @@ main {
   height: 300px;
   width: 400px;
   padding: 1em;
-  
-  
 }
 
 #destaque h1 {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 
-text-decoration: none;
+  text-decoration: none;
 }
 
-#destaque p{
+#destaque p {
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: justify;
-  
-  
 }
-
-
 
 #categorias button {
   background-color: orange;
@@ -288,59 +284,55 @@ text-decoration: none;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   color: white;
-
 }
 #categorias a {
   color: black;
   text-decoration: none;
 }
 
-#categorias button:hover{
+#categorias button:hover {
   opacity: 0.8;
 }
 
-#categorias img{
+#categorias img {
   width: 30px;
   height: 30px;
   float: right;
 }
 
-#sec-noticia h1{
-  font-family: 'Times New Roman', Times, serif;
+#sec-noticia h1 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   text-align: center;
 }
 
-#sec-noticia h2{
-  font-family: 'Times New Roman', Times, serif;
+#sec-noticia h2 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  
+
   color: orange;
-  
 }
 
-#sec-noticia p{
-  font-family: 'Times New Roman', Times, serif;
+#sec-noticia p {
+  font-family: "Times New Roman", Times, serif;
   text-align: justify;
 }
 
-#sec-noticia a{
+#sec-noticia a {
   color: #f39200;
 }
 
-
-
-input[type=email] {
+input[type="email"] {
   width: 97.3%;
   padding: 12px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 109%;
   padding: 12px;
   color: white;
