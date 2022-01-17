@@ -334,3 +334,7 @@ input[type=submit] {
   background-color: #f39200;
 }
 
+#newsletter {
+  display: flex;
+  position: absolute;
+}
