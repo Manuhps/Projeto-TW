@@ -12,11 +12,6 @@
   <div id="logo">
     <a href="index.html"><img src="Imagens\logo.png" width="100px" height="100px"></a>
   </div>
-
-
-
-
-
     <div id="login">
       <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
         <div id="id01" class="modal">
@@ -26,11 +21,11 @@
               <img src="" alt="Avatar" class="avatar">
             </div>
               <div class="container">
-                <label for="uname"><b>Nome de utilizador</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="uname"><b>Nome de utilizador: </b></label>
+                <input type="text" placeholder="Nome de utilizador: " name="uname" required>
                 
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="psw"><b>Password: </b></label>
+                <input type="password" placeholder="Password: " name="psw" required>
                     
                 <button type="submit">Login</button>
               </div>
@@ -55,15 +50,15 @@
             <input type="text" placeholder="Nome de utilizador: " name="uname" required>
             
             <label for="psw"><b>Password: </b></label>
-            <input type="password" placeholder="Password: " name="psw" required>
+            <input type="password" placeholder="Password: " name="psw1" required>
 
             <label for="psw"><b>Confirmaçao da Password: </b></label>
-            <input type="password" placeholder="Confirmaçao da Password: " name="psw" required>
+            <input type="password" placeholder="Confirmaçao da Password: " name="psw2" required>
 
             <label for="psw"><b>Email: </b></label>
-            <input type="email" placeholder="O seu e-mail: " name="psw" required>
+            <input type="email" placeholder="O seu e-mail: " name="email" required>
                     
-            <button type="submit">Login</button>
+            <button type="submit">Registar</button>
           </div>
             <div class="container" style="background-color:#f1f1f1">
               <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
@@ -100,6 +95,20 @@
       <a href="economia.html"><button>Economia<img src="Imagens\economia.png"></button></a>
       <a href="politica.html"><button>Politica<img src="Imagens\politica.png"></button></a>
       <a href="mundo.html"><button>Mundo<img src="Imagens\world.png"></button></a>
+      <hr><br>
+      <div class="newsletter">
+        <h1>Subscreva a nossa newsletter</h1>
+        <p>Para receber todas as notificações de notícias de última hora.</p>
+          <form onsubmit="alert('A sua subscrição foi feita com sucesso')">
+            <div>
+              <input type="email" placeholder="O seu e-mail" id="email" required>
+            </div>
+            <br>
+              <div>
+                <input type="submit" value="Subscrever">
+              </div>
+          </form>
+        </div>
     </section>
     
     <section id="sec-noticia">
@@ -120,26 +129,7 @@
         <p>No próxima quinta-feira, as fogaceiras voltam a percorrer as ruas do centro histórico da Feira, na procissão e cortejo cívico, cerimónias integradas na Festa das Fogaceiras, o voto secular da gente feirense ao mártir S. Sebastião para a livrar da peste. Mas apenas 31 meninas marcarão presença.</p>
         <hr>
       </ul>
-      
     </section>
-  
-  
-  <section class="newsletter">
-    <h1>Subscreva a nossa newsletter</h1>
-    <p>Para receber todas as notificações de notícias de última hora.</p>
-    <form onsubmit="alert('ssss')">
-      <div>
-        <input type="email" placeholder="O seu e-mail" id="email" required>
-      </div>
-      <div>
-        <input type="submit" value="Subscrever" onclick="">
-      </div>
-    </form>
-  </section>
-  <footer>
-    <p>skljdflksdjflksdfjsldfjsdlkfjsldkfjsldkfjsldkfj</p>
-  </footer>
-
   </main>
 </body>
 </html>
