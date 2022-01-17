@@ -19,14 +19,16 @@
   top: 7%;
 }
 
-
-
 .link:link{
     color: white;
 }
 .link:visited{
     color: white;
 }
+.link:active{
+  color: white;
+}
+
 
 .titulo  {
   display: flex;

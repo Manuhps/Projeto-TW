@@ -20,6 +20,19 @@
     color: white;
 }
 
+.esmadnews:link{
+  color: #f39200;
+  text-decoration: none;
+}
+.esmadnews:active{
+  color: #f39200;
+  text-decoration: none;
+}
+.esmadnews:visited{
+  color: #f39200;
+  text-decoration: none;
+}
+
 .titulo  {
   display: flex;
   position: absolute;
