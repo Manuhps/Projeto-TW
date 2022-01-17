@@ -12,13 +12,18 @@
   <div id="logo">
     <a href="index.html"><img src="Imagens\logo.png" width="100px" height="100px"></a>
   </div>
+
+
+
+
+
     <div id="login">
       <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
         <div id="id01" class="modal">
-          <form class="modal-content animate" method="post">
+          <form class="modal-content animate">
             <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="" alt="Avatar" class="avatar">
+              <img src="" alt="Avatar" class="avatar">
             </div>
               <div class="container">
                 <label for="uname"><b>Nome de utilizador</b></label>
@@ -34,32 +39,37 @@
                 </div>
           </form>
         </div>
-        </div>
-<div id="registar">
-        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Registar</button>
-      <div id="id02" class="modal">
-          <form class="modal-content animate" method="post">
-                <div class="imgcontainer">
-                  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                  <img src="" alt="Avatar" class="avatar">
-                 </div>
-                 <div class="container">
-                  <label for="uname"><b>Nome de utilizador</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
-            
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-                    
-                  <button type="submit">Login</button>
-              
-                 </div>
-            
-                 <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-                </div>
-            </form>
       </div>
 </div>
+
+<div id="registar">
+  <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Registar</button>
+    <div id="id02" class="modal">
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="" alt="Avatar" class="avatar">
+        </div>
+          <div class="container">
+            <label for="uname"><b>Nome de utilizador: </b></label>
+            <input type="text" placeholder="Nome de utilizador: " name="uname" required>
+            
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Password: " name="psw" required>
+
+            <label for="psw"><b>Confirmaçao da Password: </b></label>
+            <input type="password" placeholder="Confirmaçao da Password: " name="psw" required>
+
+            <label for="psw"><b>Email: </b></label>
+            <input type="email" placeholder="O seu e-mail: " name="psw" required>
+                    
+            <button type="submit">Login</button>
+          </div>
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+      </form>
+    </div>
 </div>
   <div class="titulo">
     <h1>ESMAD NEWS</h1>
@@ -116,7 +126,7 @@
   <footer class="newsletter">
     <h1>Subscreva a nossa newsletter</h1>
     <p>Para receber todas as notificações de notícias de última hora.</p>
-    <form onsubmit="alert('Vai te fuder')">
+    <form onsubmit="alert('ssss')">
       <div>
         <input type="email" placeholder="O seu e-mail" id="email" required>
       </div>
