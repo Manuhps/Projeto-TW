@@ -232,13 +232,12 @@ main {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
       "green green green blue"
       "green green green red"
       "yellow yellow yellow brown"
-      "pink pink pink brown"
-      "orange orange orange orange";
+      "pink pink pink brown";
       border-top: 1px solid;
   }
   
@@ -394,4 +393,50 @@ main {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+  }
+
+  .rodape{
+    background-color: #353535;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .rodape h2{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    top: 10px;
+  }
+  
+  .rodape p{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    bottom: 11px;
+  }
+  
+  .rodape a{
+    color: white;
+    
+  }
+  
+  .rodape h3{
+    color: white;
+    text-align: center;
+  }
+  
+  .icons{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .esmad{
+    position: relative;
+    color: grey;
+    bottom: 35px;
+    left: 3px;
+    font-size: 13px;
   }
