@@ -1,0 +1,98 @@
+#barraTopo {
+    background-color: #353535;
+    height: 100px;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 45%;
+    
+}
+
+.titulo a{
+    text-decoration: none;
+    color: #f39200;
+    font-family: "Times New Roman", Times, serif;
+}
+
+fieldset{
+    border: none;
+}
+
+
+input[type="text"], [type="date"] {
+    width: 20%;
+    padding: 15px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+
+input[type="date"]{
+    margin-left: 120px;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+    width: 43.7%;
+    padding: 12px;
+    color: white;
+    border: none;
+    background-color: #f39200;
+}
+
+label{
+    padding: 10px;
+    font-size: 17px;
+    
+}
+
+.rodape{
+    background-color: #353535;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .rodape h2{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    top: 10px;
+  }
+  
+  .rodape p{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    bottom: 11px;
+  }
+  
+  .rodape a{
+    color: white;
+    
+  }
+  
+  .rodape h3{
+    color: white;
+    text-align: center;
+  }
+  
+  .icons{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .esmad{
+    position: relative;
+    color: grey;
+    bottom: 35px;
+    left: 3px;
+    font-size: 13px;
+  }
