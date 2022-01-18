@@ -1,64 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto TW</title>
-    <link rel="stylesheet" href="css\estilos.css" />
+    <link rel="stylesheet" href="css\estilos.css">
   </head>
   <body>
     <div id="barraTopo">
       <div id="logo">
-        <a href="index.html"
-          ><img src="Imagens\logo.png" width="100px" height="100px"
-        /></a>
+        <a href="index.html"><img src="Imagens\logo.png" width="100px" height="100px"></a>
       </div>
       <div id="login">
-        <button
-          onclick="document.getElementById('id01').style.display='block'"
-          style="width: auto"
-        >
-          Login
-        </button>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width: auto">Login</button>
         <div id="id01" class="modal">
           <form class="modal-content animate">
             <div class="imgcontainer">
-              <span
-                onclick="document.getElementById('id01').style.display='none'"
-                class="close"
-                title="Close Modal"
-                >&times;</span
-              >
-              <img src="" alt="Avatar" class="avatar" />
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="" alt="Avatar" class="avatar">
             </div>
             <div class="container">
               <label for="uname"><b>Nome de utilizador: </b></label>
-              <input
-                type="text"
-                placeholder="Nome de utilizador: "
-                name="uname"
-                required
-              />
-
+              <input type="text" placeholder="Nome de utilizador: " name="uname" required>
               <label for="psw"><b>Password: </b></label>
-              <input
-                type="password"
-                placeholder="Password: "
-                name="psw"
-                required
-              />
-
+              <input type="password" placeholder="Password: " name="psw" required>
               <button type="submit">Login</button>
             </div>
             <div class="container" style="background-color: #f1f1f1">
-              <button
-                type="button"
-                onclick="document.getElementById('id01').style.display='none'"
-                class="cancelbtn"
-              >
-                Cancel
-              </button>
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
             </div>
           </form>
         </div>
@@ -66,66 +36,25 @@
     </div>
 
     <div id="registar">
-      <button
-        onclick="document.getElementById('id02').style.display='block'"
-        style="width: auto"
-      >
-        Registar
-      </button>
+      <button onclick="document.getElementById('id02').style.display='block'" style="width: auto">Registar</button>
       <div id="id02" class="modal">
         <form class="modal-content animate">
           <div class="imgcontainer">
-            <span
-              onclick="document.getElementById('id02').style.display='none'"
-              class="close"
-              title="Close Modal"
-              >&times;</span
-            >
-            <img src="" alt="Avatar" class="avatar" />
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal" >&times;</span><img src="" alt="Avatar" class="avatar">
           </div>
           <div class="container">
             <label for="uname"><b>Nome de utilizador: </b></label>
-            <input
-              type="text"
-              placeholder="Nome de utilizador: "
-              name="uname"
-              required
-            />
-
+            <input type="text" placeholder="Nome de utilizador: " name="uname" required>
             <label for="psw"><b>Password: </b></label>
-            <input
-              type="password"
-              placeholder="Password: "
-              name="psw1"
-              required
-            />
-
+            <input type="password" placeholder="Password: " name="psw1" required>
             <label for="psw"><b>Confirmaçao da Password: </b></label>
-            <input
-              type="password"
-              placeholder="Confirmaçao da Password: "
-              name="psw2"
-              required
-            />
-
+            <input type="password" placeholder="Confirmaçao da Password: " name="psw2" required>
             <label for="psw"><b>Email: </b></label>
-            <input
-              type="email"
-              placeholder="O seu e-mail: "
-              name="email"
-              required
-            />
-
+            <input type="email" placeholder="O seu e-mail: " name="email" required>
             <button type="submit">Registar</button>
           </div>
           <div class="container" style="background-color: #f1f1f1">
-            <button
-              type="button"
-              onclick="document.getElementById('id02').style.display='none'"
-              class="cancelbtn"
-            >
-              Cancel
-            </button>
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
           </div>
         </form>
       </div>
@@ -143,14 +72,12 @@
     </div>
     <main>
       <section id="destaque">
-        <hr />
+        <hr>
         <h1>Destaque do dia</h1>
-        <hr />
-        <img src="Imagens\9.jpg" />
+        <hr>
+        <img src="Imagens\9.jpg">
         <h2>
-          <a href="destaque1.html"
-            >António Costa supera Rui Rio em 14 pontos no potencial de voto</a
-          >
+          <a href="destaque1.html">António Costa supera Rui Rio em 14 pontos no potencial de voto</a>
         </h2>
         <p>
           António Costa não cedeu um milímetro a Rui Rio e mantém-se como
@@ -168,65 +95,47 @@
       </section>
 
       <section id="categorias">
-        <hr />
+        <hr>
         <h1>Categorias</h1>
-        <hr />
-        <a href="desporto.html"
-          ><button>Desporto<img src="Imagens\desporto.png" /></button
-        ></a>
-        <a href="economia.html"
-          ><button>Economia<img src="Imagens\economia.png" /></button
-        ></a>
-        <a href="politica.html"
-          ><button>Politica<img src="Imagens\politica.png" /></button
-        ></a>
-        <a href="mundo.html"
-          ><button>Mundo<img src="Imagens\world.png" /></button
-        ></a>
-        <hr />
-        <br />
+        <hr>
+        <a href="desporto.html"><button>Desporto<img src="Imagens\desporto.png"></button></a>
+        <a href="economia.html"><button>Economia<img src="Imagens\economia.png"></button></a>
+        <a href="politica.html"><button>Politica<img src="Imagens\politica.png"></button></a>
+        <a href="mundo.html"><button>Mundo<img src="Imagens\world.png"></button></a>
+        <hr>
+        <br>
         <div class="newsletter">
           <h1>Subscreva a nossa newsletter</h1>
           <p>Para receber todas as notificações de notícias de última hora.</p>
-          <form onsubmit="alert('A sua subscrição foi feita com sucesso')">
+          <form id="subs">
             <div>
-              <input
-                type="email"
-                placeholder="O seu e-mail"
-                id="email"
-                required
-              />
+              <input type="email" placeholder="O seu e-mail" id="email" required>
             </div>
-            <br />
+            <br>
             <div>
-              <input type="submit" value="Subscrever" />
+              <input type="submit" value="Subscrever">
             </div>
           </form>
+          <p id="log"></p>
         </div>
+        <script src="js/script.js"></script>
       </section>
 
       <section id="sec-noticia">
-        <hr />
+        <hr>
         <h1>Destaques da semana</h1>
-        <hr />
+        <hr>
         <ul>
           <li>
-            <a href="destaque2.html"
-              ><h2>Tsunami atinge Tonga após erupção de vulcão submarino</h2></a
-            >
+            <a href="destaque2.html"><h2>Tsunami atinge Tonga após erupção de vulcão submarino</h2></a>
           </li>
           <p>
             Um tsunami atingiu a costa da ilha do Pacífico Sul de Tonga, este
             sábado, após uma violenta erupção vulcânica, sem que exista registo
             de vítimas, noticiaram os meios de comunicação locais.
           </p>
-          <hr />
-          <li>
-            <a href="destaque3.html"
-              ><h2>
-                Membros das mesas de voto reforçaram vacina para atacar receios
-              </h2></a
-            >
+          <hr>
+          <li><a href="destaque3.html"><h2>Membros das mesas de voto reforçaram vacina para atacar receios</h2></a>
           </li>
           <p>
             Mais de duas centenas de membros de mesas de voto para as
@@ -239,15 +148,8 @@
             procuram resolver a falta de pessoal para as mesas, cujas
             desistências nos próximos dias ameaçam complicar o processo.
           </p>
-          <hr />
-          <li>
-            <a href="destaque4.html"
-              ><h2>
-                Mais festas no confinamento danificam ainda mais imagem de Boris
-                Johnson
-              </h2></a
-            >
-          </li>
+          <hr>
+          <li><a href="destaque4.html"><h2>Mais festas no confinamento danificam ainda mais imagem de Boris Johnson</h2></a></li>
           <p>
             As festas em Downing Street durante o confinamento realizavam-se
             todas as sextas-feiras, noticia, este sábado, o jornal The Mirror,
@@ -255,12 +157,8 @@
             primeiro-ministro britânico, Boris Johnson, cuja posição parece cada
             vez mais fragilizada.
           </p>
-          <hr />
-          <li>
-            <a href="destaque5.html"
-              ><h2>Fogaceiras voltam às ruas da Feira em versão reduzida</h2></a
-            >
-          </li>
+          <hr>
+          <li><a href="destaque5.html"><h2>Fogaceiras voltam às ruas da Feira em versão reduzida</h2></a></li>
           <p>
             No próxima quinta-feira, as fogaceiras voltam a percorrer as ruas do
             centro histórico da Feira, na procissão e cortejo cívico, cerimónias
@@ -268,7 +166,7 @@
             ao mártir S. Sebastião para a livrar da peste. Mas apenas 31 meninas
             marcarão presença.
           </p>
-          <hr />
+          <hr>
         </ul>
       </section>
     </main>
