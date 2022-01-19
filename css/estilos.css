@@ -37,6 +37,11 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+#perfil{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
 .menu-navegacao {
   display: flex;
   position: absolute;
