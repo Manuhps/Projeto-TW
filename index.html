@@ -14,21 +14,18 @@
       </div>
       <div id="login">
         <button onclick="document.getElementById('id01').style.display='block'" style="width: auto">Login</button>
-        <div id="id01" class="modal">
-          <form class="modal-content animate">
+        <div id="id01" onsubmit="return login()" class="modal">
+          <form id="login" class="modal-content animate">
             <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-              <img src="" alt="Avatar" class="avatar">
             </div>
             <div class="container">
               <label for="uname"><b>Nome de utilizador: </b></label>
-              <input type="text" placeholder="Nome de utilizador: " name="uname" required>
+              <input type="text" placeholder="Nome de utilizador: " id="nome" name="uname" required>
               <label for="psw"><b>Password: </b></label>
-              <input type="password" placeholder="Password: " name="psw" required>
+              <input type="password" placeholder="Password: " id="passw" name="psw" required>
               <button type="submit">Login</button>
-            </div>
-            <div class="container" style="background-color: #f1f1f1">
-              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <p id="entra"></p>
             </div>
           </form>
         </div>
@@ -96,12 +93,22 @@
 
       <section id="categorias">
         <hr>
-        <h1>Categorias</h1>
+        <h1>Destaques da semana</h1>
         <hr>
-        <a href="desporto.html"><button>Desporto<img src="Imagens\desporto.png"></button></a>
-        <a href="economia.html"><button>Economia<img src="Imagens\economia.png"></button></a>
-        <a href="politica.html"><button>Politica<img src="Imagens\politica.png"></button></a>
-        <a href="mundo.html"><button>Mundo<img src="Imagens\world.png"></button></a>
+        <ul>
+          <li><a href="destaque3.html"><h2>Membros das mesas de voto reforçaram vacina para atacar receios</h2></a></li>
+        <p>
+            Mais de duas centenas de membros de mesas de voto para as
+            legislativas e funcionários das juntas que vão participar no
+            processo já tinham, a meio desta manhã de sábado, tomado a dose de
+            reforço da vacina conta a covid-19 no Pavilhão Multiusos de
+            Gondomar.Os receios persistem, sobretudo quando lhes falta
+            informação sobre o voto dos isolados e infetados, mas garantem não
+            desistir, embora com cuidados redobrados. Enquanto isso, as juntas
+            procuram resolver a falta de pessoal para as mesas, cujas
+            desistências nos próximos dias ameaçam complicar o processo.
+        </p>
+        </ul>
         <hr>
         <br>
         <div class="newsletter">
@@ -133,20 +140,6 @@
             Um tsunami atingiu a costa da ilha do Pacífico Sul de Tonga, este
             sábado, após uma violenta erupção vulcânica, sem que exista registo
             de vítimas, noticiaram os meios de comunicação locais.
-          </p>
-          <hr>
-          <li><a href="destaque3.html"><h2>Membros das mesas de voto reforçaram vacina para atacar receios</h2></a>
-          </li>
-          <p>
-            Mais de duas centenas de membros de mesas de voto para as
-            legislativas e funcionários das juntas que vão participar no
-            processo já tinham, a meio desta manhã de sábado, tomado a dose de
-            reforço da vacina conta a covid-19 no Pavilhão Multiusos de
-            Gondomar. Os receios persistem, sobretudo quando lhes falta
-            informação sobre o voto dos isolados e infetados, mas garantem não
-            desistir, embora com cuidados redobrados. Enquanto isso, as juntas
-            procuram resolver a falta de pessoal para as mesas, cujas
-            desistências nos próximos dias ameaçam complicar o processo.
           </p>
           <hr>
           <li><a href="destaque4.html"><h2>Mais festas no confinamento danificam ainda mais imagem de Boris Johnson</h2></a></li>
