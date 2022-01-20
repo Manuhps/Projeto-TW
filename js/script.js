@@ -3,7 +3,17 @@ function login() {
     let passw = document.getElementById("passw").value;
     if(nome=="admin" && passw=="admin")
     {
-        alert("Ola")
+        function logSubmit(event) {
+            entrar.textContent = 'Login efetuado com sucesso!';
+            event.preventDefault();
+        }
+        
+        const login = document.getElementById('login');
+        const entrar = document.getElementById('entrar');
+        login.addEventListener('submit', logSubmit);
+        document.getElementById("entrar").style.fontSize = "25px"; 
+        document.getElementById("entrar").style.color = "black";
+        document.getElementById("entrar").style.backgroundColor = "orange"; 
     }
     else
     {
@@ -19,8 +29,11 @@ function logSubmit(event) {
 }
 
 const form = document.getElementById('subs');
-const log = document.getElementById('log');
+const enviar = document.getElementById('log');
 form.addEventListener('submit', logSubmit);
 document.getElementById("log").style.fontSize = "25px"; 
 document.getElementById("log").style.color = "black";
-document.getElementById("log").style.backgroundColor = "orange"; 
+document.getElementById("log").style.backgroundColor = "orange";
+
+
+
