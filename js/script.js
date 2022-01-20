@@ -5,6 +5,10 @@ function login() {
     {
         alert("Ola")
     }
+    else
+    {
+        alert("O utilizador nao existe!")
+    }
     return false
 }
 
