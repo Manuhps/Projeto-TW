@@ -29,7 +29,6 @@
               <input type="password" placeholder="Password: " id="passw" name="psw" required>
               <button type="submit">Login</button>
               <p id="entrar"></p>
-              <script src="js/script.js"></script>
             </div>
           </form>
         </div>
@@ -38,21 +37,22 @@
 
     <div id="registar">
       <button onclick="document.getElementById('id02').style.display='block'" style="width: auto">Registar</button>
-      <div id="id02" class="modal">
-        <form class="modal-content animate">
+      <div id="id02" onsubmit="return registar()" class="modal">
+        <form id="registar" class="modal-content animate">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal" >&times;</span>
           </div>
           <div class="container">
             <label for="uname"><b>Nome de utilizador: </b></label>
-            <input type="text" placeholder="Nome de utilizador: " name="uname" required>
+            <input type="text" placeholder="Nome de utilizador: " id="nomeu" name="nomeu" required>
             <label for="psw"><b>Password: </b></label>
-            <input type="password" placeholder="Password: " name="psw1" required>
+            <input type="password" placeholder="Password: " id="passw1" name="passw1" required>
             <label for="psw"><b>Confirmaçao da Password: </b></label>
-            <input type="password" placeholder="Confirmaçao da Password: " name="psw2" required>
+            <input type="password" placeholder="Confirmaçao da Password: " id="confpass" name="confpass" required>
             <label for="psw"><b>Email: </b></label>
-            <input type="email" placeholder="O seu e-mail: " name="email" required>
+            <input type="email" placeholder="O seu e-mail: "  id="email" name="email" required>
             <button type="submit">Registar</button>
+            <p id="registo"></p>
           </div>
         </form>
       </div>
